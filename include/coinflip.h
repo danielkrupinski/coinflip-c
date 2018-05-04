@@ -2,6 +2,6 @@
 #define COINFLIP_H
 
 int inputData(void);
-void generateRandom(int);
+void generateRandom(int, int*, int, int*, int);
 
 #endif // COINFLIP_H

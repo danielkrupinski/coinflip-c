@@ -11,7 +11,7 @@ int inputData(void)
     return amount;
 }
 
-void generateRandom(int amount)
+void generateRandom(int amount, int* heads, int headsSize, int* tails, int tailsSize)
 {
 
 }
