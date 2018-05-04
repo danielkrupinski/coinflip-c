@@ -3,7 +3,12 @@
 
 int inputData(void)
 {
+    printf("Coin Flip Simulation\n\n");
+    printf("Enter amount of flips: ");
 
+    int amount;
+    scanf("%i",&amount);
+    return amount;
 }
 
 void generateRandom(int amount)
