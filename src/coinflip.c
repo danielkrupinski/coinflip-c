@@ -2,5 +2,10 @@
 
 int inputData(void)
 {
+
+}
+
+void generateRandom(int amount)
+{
     
 }
