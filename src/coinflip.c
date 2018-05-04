@@ -13,5 +13,5 @@ int inputData(void)
 
 void generateRandom(int amount, int* heads, int headsSize, int* tails, int tailsSize)
 {
-
+    srand(time(NULL));
 }
