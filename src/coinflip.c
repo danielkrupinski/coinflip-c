@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "../include/coinflip.h"
 
 int inputData(void)
@@ -7,5 +8,5 @@ int inputData(void)
 
 void generateRandom(int amount)
 {
-    
+
 }
