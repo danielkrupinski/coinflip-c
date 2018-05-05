@@ -8,6 +8,6 @@ struct Data {
 };
 
 int inputData(void);
-void generateRandom(int, int*, int, int*, int);
+void generateRandom(struct Data*);
 
 #endif // COINFLIP_H
