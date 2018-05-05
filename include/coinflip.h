@@ -2,10 +2,9 @@
 #define COINFLIP_H
 
 struct Data {
-    int* heads;
-    int headsSize;
-    int* tails;
-    int tailsSize;
+    int amount;
+    int heads[amount];
+    int tails[amount];
 };
 
 int inputData(void);
