@@ -13,7 +13,20 @@ int inputData(void)
     return amount;
 }
 
-void generateRandom(struct Data*)
+void generateRandom(int amount)
 {
+    int* random = malloc(sizeof(int) * amount);
+    int heads = 0;
+    
     srand(time(NULL));
+    for (int i = 0; i != amount; ++i)
+        if (rand() & 1) {
+            ++heads;
+            *random = 1;
+            ++random;
+        }
+        else {
+            *random = 0;
+            ++random;
+        }
 }
