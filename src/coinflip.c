@@ -1,7 +1,7 @@
+#include <coinflip.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "../include/coinflip.h"
 
 int inputData(void)
 {
@@ -17,7 +17,7 @@ void generateRandom(int amount)
 {
     int* random = malloc(sizeof(int) * amount);
     int heads = 0;
-    
+
     srand(time(NULL));
     for (int i = 0; i != amount; ++i)
         if (rand() & 1) {
